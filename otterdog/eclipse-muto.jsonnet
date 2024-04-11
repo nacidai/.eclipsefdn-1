@@ -4,7 +4,6 @@ orgs.newOrg('eclipse-muto') {
   settings+: {
     dependabot_security_updates_enabled_for_new_repositories: false,
     packages_containers_internal: false,
-    two_factor_requirement: false,
     web_commit_signoff_required: false,
     workflows+: {
       actions_can_approve_pull_request_reviews: false,
