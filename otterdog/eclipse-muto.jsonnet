@@ -17,8 +17,6 @@ orgs.newOrg('eclipse-muto') {
       delete_branch_on_merge: false,
       description: "Agent is the extensible eclipse muto gateway into ROS Services",
       homepage: "",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -30,8 +28,6 @@ orgs.newOrg('eclipse-muto') {
       delete_branch_on_merge: false,
       description: "Composer is the ROS orchestration functionality is provided as extensions",
       homepage: "",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -42,8 +38,6 @@ orgs.newOrg('eclipse-muto') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "Muto common library (ROS) - Edge Devices",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -54,8 +48,6 @@ orgs.newOrg('eclipse-muto') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "Muto Dashboard, A modular web App for managing stack and devices",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -66,8 +58,6 @@ orgs.newOrg('eclipse-muto') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "Muto Dashboard live-ui plugin for device twins",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -78,8 +68,6 @@ orgs.newOrg('eclipse-muto') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "Muto Dashboard live-ui plugin for stack twins",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -93,8 +81,6 @@ orgs.newOrg('eclipse-muto') {
       gh_pages_build_type: "legacy",
       gh_pages_source_branch: "gh-pages",
       gh_pages_source_path: "/",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -116,8 +102,6 @@ orgs.newOrg('eclipse-muto') {
       delete_branch_on_merge: false,
       description: "LiveUI helps you compose monolithic frontends into smaller, more manageable micro frontends.",
       homepage: "",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -129,8 +113,6 @@ orgs.newOrg('eclipse-muto') {
       default_branch: "master",
       delete_branch_on_merge: false,
       description: "liveui-core",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -142,8 +124,6 @@ orgs.newOrg('eclipse-muto') {
       default_branch: "master",
       delete_branch_on_merge: false,
       description: "liveui-react",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -155,8 +135,6 @@ orgs.newOrg('eclipse-muto') {
       default_branch: "master",
       delete_branch_on_merge: false,
       description: "liveui-react-native",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -168,8 +146,6 @@ orgs.newOrg('eclipse-muto') {
       default_branch: "master",
       delete_branch_on_merge: false,
       description: "liveui-samples",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -181,8 +157,6 @@ orgs.newOrg('eclipse-muto') {
       default_branch: "master",
       delete_branch_on_merge: false,
       description: "liveui-vue",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -193,8 +167,6 @@ orgs.newOrg('eclipse-muto') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "Muto Message Types for ROS",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
