@@ -2,7 +2,6 @@ local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
 orgs.newOrg('eclipse-muto') {
   settings+: {
-    dependabot_security_updates_enabled_for_new_repositories: false,
     packages_containers_internal: false,
     web_commit_signoff_required: false,
     workflows+: {
