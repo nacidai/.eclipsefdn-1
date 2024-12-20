@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-muto') {
+orgs.newOrg('automotive.muto', 'eclipse-muto') {
   settings+: {
     packages_containers_internal: false,
     web_commit_signoff_required: false,
