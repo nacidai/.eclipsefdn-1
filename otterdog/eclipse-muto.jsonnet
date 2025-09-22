@@ -10,6 +10,17 @@ orgs.newOrg('automotive.muto', 'eclipse-muto') {
     },
   },
   _repositories+:: [
+    orgs.newRepo('muto') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      description: "Eclipse Muto is an open-source, declarative orchestrator for managing ROS2 (Robot Operating System) software stacks on edge devices",
+      homepage: "https://eclipse-muto.github.io/docs/",
+      web_commit_signoff_required: false,
+      workflows+: {
+        default_workflow_permissions: "write",
+      },
+    },
     orgs.newRepo('agent') {
       allow_merge_commit: true,
       allow_update_branch: false,
