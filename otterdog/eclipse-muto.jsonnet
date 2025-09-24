@@ -2,7 +2,8 @@ local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
 orgs.newOrg('automotive.muto', 'eclipse-muto') {
   settings+: {
-    packages_containers_internal: false,
+    packages_containers_internal: true,
+    packages_containers_public: true,
     web_commit_signoff_required: false,
     workflows+: {
       actions_can_approve_pull_request_reviews: false,
